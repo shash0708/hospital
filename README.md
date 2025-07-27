@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hospital Management System
+
+This is a modern hospital management system built with [Next.js](https://nextjs.org), TypeScript, and Tailwind CSS. The project was bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Features
+
+- 🏥 Modern hospital management interface
+- ⚡ Built with Next.js 15 and App Router
+- 🎨 Styled with Tailwind CSS v4
+- 📝 Full TypeScript support
+- 🔧 ESLint configuration for code quality
+- 📱 Responsive design
+
+## Tech Stack
+
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Linting**: ESLint
+- **Package Manager**: npm
 
 ## Getting Started
 
