@@ -185,7 +185,7 @@ function Services({
 
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {servicesToRender.map((service, index) => (
+          {servicesToRender.map((service) => (
             <div
               key={service.id}
               className={`${service.bgColor} rounded-2xl p-8 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-slate-100`}

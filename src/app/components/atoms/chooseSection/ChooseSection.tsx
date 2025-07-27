@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 interface ServiceItem {
@@ -135,7 +136,7 @@ function ChooseSection({
 
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {servicesToRender.map((service, index) => (
+          {servicesToRender.map((service) => (
             <div
               key={service.id}
               className={`rounded-2xl p-8 hover:shadow-lg transition-all duration-300 hover:-translate-y-1  text-center`}

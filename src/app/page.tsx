@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "./components/atoms/navbar/Navbar";
 import Introduction from "./components/atoms/intro/Introduction";
 import FeatureCard from "./components/atoms/featurecard/FeatureCard";

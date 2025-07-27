@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 interface ReviewItem {
   id: string;
@@ -119,14 +120,16 @@ function ReviewSection({
 
                 {/* Review Text */}
                 <blockquote className="text-gray-700 text-sm leading-relaxed mb-6 line-clamp-4">
-                  "{review.review}"
+                  &ldquo;{review.review}&rdquo;
                 </blockquote>
 
                 {/* Author Info */}
                 <div className="flex items-center space-x-4">
-                  <img
+                  <Image
                     src={review.avatar}
                     alt={review.name}
+                    width={48}
+                    height={48}
                     className="w-12 h-12 rounded-full object-cover border-2 border-gray-200"
                   />
                   <div>
